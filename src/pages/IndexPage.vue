@@ -1,10 +1,9 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+  <q-page padding>
+    <div class="row column flex-center q-gutter-lg q-mt-sm">
+      <q-btn size="xl" label="比手畫腳" color="primary" to="/guesstures" />
+      <q-btn size="xl" label="終極密碼" color="primary" to="/password" />
+    </div>
   </q-page>
 </template>
 
